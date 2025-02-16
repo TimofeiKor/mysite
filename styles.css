@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgb(239, 255, 247);
+
+    font-family: 'Roboto', sans-serif;
+
+}
+    
+p {
+    color: rgb(8, 100, 54);
+
+}
+h1 {
+    color: rgb(15, 69, 41)
+}
+li {
+    color: rgb(8, 100, 54);
+}
+a {
+    color: rgb(2, 58, 30);
+}
