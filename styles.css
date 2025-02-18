@@ -1,20 +1,9 @@
-
 body {
-    background-color: rgb(223, 255, 239);
+    background: linear-gradient(to right, rgb(227, 189, 145), rgb(186, 235, 177));
+}
 
-    font-family: 'Mono serif', serif;
-}
-    
-p {
-    color: rgb(8, 100, 54);
-
-}
-h1 {
-    color: rgb(15, 69, 41)
-}
-li {
-    color: rgb(8, 100, 54);
-}
-a {
-    color: rgb(2, 58, 30);
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(5, 54, 7);
+    }
 }

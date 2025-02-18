@@ -1,0 +1,27 @@
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(196, 255, 168);
+    color: rgb(28, 96, 28);
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: rgb(3, 93, 0);
+    color: rgb(214, 255, 212);
+    transform: scale(1.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        background-color: rgb(30, 200, 100);
+    }
+
+    a:hover {
+        background-color: rgb(36, 112, 0);
+    }
+}

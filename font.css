@@ -1,0 +1,56 @@
+h1 {
+    background: linear-gradient(to right, rgba(112, 80, 0, 0.8), rgba(9, 49, 11, 0.8));
+    color: rgb(255, 177, 104);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: url('https://cdnjs.cloudflare.com/ajax/libs/emoji-mart/5.0.7/animations/cursor.woff2'), auto; /* додано для лапок */
+}
+
+@media (prefers-color-scheme: dark) {
+    h1 {
+        background: linear-gradient(to right, rgba(200, 129, 30, 0.8), rgb(7, 41, 9));
+        color: rgb(255, 255, 255);
+    }
+}
+
+h1 {
+    background-color: rgb(36, 112, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1:hover {
+    background-color: rgb(167, 143, 12);
+    transform: scale(1.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    h1 {
+        background-color: rgb(30, 200, 100);
+    }
+
+    h1:hover {
+        background-color: rgb(36, 112, 0);
+    }
+}
+
+* {
+    font-family:'Georgia', sans-serif;
+    color:rgb(83, 51, 19);
+}
+
+body {
+    font-size: 19px;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        color: rgb(3, 64, 28);
+    }
+}
