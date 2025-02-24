@@ -1,0 +1,11 @@
+.text-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px; /* Для відступу від країв */
+  background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для улучшения читаемости */
+  border-radius: 5px; /* Скругленные углы */
+  max-width: 90%; /* Ограничение ширины для адаптивности */
+  margin: 10px; /* Внешние отступы */
+}

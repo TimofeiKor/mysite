@@ -16,12 +16,24 @@ a:hover {
     transform: scale(1.1);
 }
 
+a:focus {
+    outline: 2px solid rgb(3, 93, 0);
+    outline-offset: 4px;
+}
+
 @media (prefers-color-scheme: dark) {
     a {
         background-color: rgb(30, 200, 100);
+        color: rgb(28, 96, 28);
     }
 
     a:hover {
         background-color: rgb(36, 112, 0);
+        color: rgb(214, 255, 212);
+    }
+
+    a:focus {
+        outline: 2px solid rgb(36, 112, 0);
+        outline-offset: 4px;
     }
 }

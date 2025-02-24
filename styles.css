@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, rgb(227, 189, 145), rgb(186, 235, 177));
+    transition: background-color 0.3s ease;
 }
 
 @media (prefers-color-scheme: dark) {
